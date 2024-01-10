@@ -1,4 +1,4 @@
-const { db } = require('@vercel/postgres');
+import { db }  from '@vercel/postgres';
 const {
   invoices,
   customers,
